@@ -17,15 +17,15 @@ def process_review():
     polarity = blob.sentiment.polarity
     if polarity > 0.2:
         sentiment = 'Positive'
-        score = 5
+        score = round((blob.sentiment.polarity + 1) * 2.5, 1)
         emoji = '\U0001F604'
     elif polarity < -0.2:
         sentiment = 'Negative'
-        score = 1
+        score = round((blob.sentiment.polarity + 1) * 2.5, 1)
         emoji = '\U0001F614'
     else:
         sentiment = 'Neutral'
-        score = 3
+        score = round((blob.sentiment.polarity + 1) * 2.5, 1)
         emoji = '\U0001F610'
     result = {'sentiment': sentiment, 'score': score, 'emoji': emoji}
     return render_template('index.html', result=result)
