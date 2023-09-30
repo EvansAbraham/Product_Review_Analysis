@@ -95,4 +95,4 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ---
 
-Thank you for using the Product Review Analysis website! If you have any questions or encounter issues, please don't hesitate to contact us at [Email to](mailto:evansabrahamj@gmail.com).
+Thank you for using the Product Review Analysis website! If you have any questions or encounter issues, please don't hesitate to contact us at [Emailto](mailto:evansabrahamj@gmail.com).
