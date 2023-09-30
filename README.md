@@ -49,7 +49,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/Shalini171002/Product_Review_Analysis.git
+   git clone https://github.com/EvansAbraham/Product_Review_Analysis.git
    cd product-review-analysis
    ```
 
@@ -95,4 +95,4 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ---
 
-Thank you for using the Product Review Analysis website! If you have any questions or encounter issues, please don't hesitate to contact us at [Shalini](mailto:shalinijayanthilal1@gmail.com).
+Thank you for using the Product Review Analysis website! If you have any questions or encounter issues, please don't hesitate to contact us at [Email to](mailto:evansabrahamj@gmail.com).
