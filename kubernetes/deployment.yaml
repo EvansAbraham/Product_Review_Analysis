@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-sentiment-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: flask-sentiment-app
+  template:
+    metadata:
+      labels:
+        app: flask-sentiment-app
+    spec:
+      containers:
+        - name: flask-sentiment-app
+          image: evansabraham/flask-sentiment-app:latest
+          ports:
+            - containerPort: 5000
